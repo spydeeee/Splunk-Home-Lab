@@ -79,7 +79,8 @@ Expected result: The service runs and is configured to forward the intended Wind
 Screenshot: 
 Use Kali Linux to perform a basic network check against a system you own or have permission to test. The supplied screenshot shows a reachable host and filtered TCP ports.
 Expected result: Record the scan findings. Filtered ports do not prove that a service is open.
-<img width="1600" height="845" alt="WhatsApp Image 2026-10-11 at 7 23 49 PM (1)" src="https://github.com/user-attachments/assets/f1bc93fd-80fa-46a3-b82f-4302eb36a106" />
+<img width="831" height="651" alt="Screenshot (15)" src="https://github.com/user-attachments/assets/d08f41e1-a1fe-4f8e-ac0b-1dbc5c83089d" />
+
 
 
 *Ref 4: Search Windows Security Events
