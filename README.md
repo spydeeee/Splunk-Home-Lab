@@ -53,11 +53,38 @@ which is directly relevant to SOC L1 Analyst roles.
 
 ## Steps
 
-*Ref 1: <img width="1068" height="849" alt="Screenshot (13)" src="https://github.com/user-attachments/assets/5e41ca13-c844-4e05-a703-be205a1f60d0" />
-         Step 1 — Start Splunk Enterprise
+*Ref 1: Start Splunk Enterprise
 Screenshot: 01-splunk-startup.png
 Start the Splunk service on your Linux machine and wait for the web interface to become available. Your terminal screenshot shows the startup process completing successfully.
 Expected result: Splunk Web is accessible on port 8000.
-*Ref 2: <img width="964" height="646" alt="Screenshot (14)" src="https://github.com/user-attachments/assets/509bce04-ce9e-456a-8533-603da19842fc" />
+<img width="1068" height="849" alt="Screenshot (13)" src="https://github.com/user-attachments/assets/5e41ca13-c844-4e05-a703-be205a1f60d0" />
+        
+*Ref 2: Verify the Windows Forwarder
+Screenshot: 02-forwarder-service.png
+Use PowerShell to check the Splunk Universal Forwarder service. Your screenshot shows an initial service error followed by a successful Running status.
+Expected result: The service runs and is configured to forward the intended Windows logs.
+<img width="964" height="646" alt="Screenshot (14)" src="https://github.com/user-attachments/assets/509bce04-ce9e-456a-8533-603da19842fc" />
+
+*Ref 3: Validate the Lab Host
+Screenshot: 03-kali-validation.png
+Use Kali Linux to perform a basic network check against a system you own or have permission to test. The supplied screenshot shows a reachable host and filtered TCP ports.
+Expected result: Record the scan findings. Filtered ports do not prove that a service is open.
+<img width="831" height="651" alt="Screenshot (15)" src="https://github.com/user-attachments/assets/93aa3ee0-b397-4f6f-a908-f2d3c7b601c3" />
+
+*Ref 4: Search Windows Security Events
+Screenshot: 04-security-events.png
+In Splunk Search, run the query below to locate events in your Windows index.
+index="windows" sourcetype="WinEventLog:Security"
+<img width="1012" height="869" alt="Screenshot (16)" src="https://github.com/user-attachments/assets/8e61c26c-d208-4a95-a563-8c40bc94157d" />
+
+*Ref 5: Review Application Events
+Screenshot: 05-application-events.png
+Review your Application log results and inspect fields such as EventCode, LogName, and ComputerName.
+index="windows" sourcetype="WinEventLog:Application"
+<img width="1160" height="856" alt="Screenshot (17)" src="https://github.com/user-attachments/assets/fa404aac-f660-4d97-adb8-dffdec1391cf" />
+
+
+
+
 
 
