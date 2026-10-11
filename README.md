@@ -52,10 +52,12 @@ which is directly relevant to SOC L1 Analyst roles.
 - Telemetry generation tools (log forwarding from Windows 10)to create realistic network traffic and attack scenarios.
 
 ## Steps
-drag & drop screenshots here or use imgur and reference them using imgsrc
 
-Every screenshot should have some text explaining what the screenshot is about.
+*Ref 1: <img width="1068" height="849" alt="Screenshot (13)" src="https://github.com/user-attachments/assets/5e41ca13-c844-4e05-a703-be205a1f60d0" />
+         Step 1 — Start Splunk Enterprise
+Screenshot: 01-splunk-startup.png
+Start the Splunk service on your Linux machine and wait for the web interface to become available. Your terminal screenshot shows the startup process completing successfully.
+Expected result: Splunk Web is accessible on port 8000.
+*Ref 2: <img width="964" height="646" alt="Screenshot (14)" src="https://github.com/user-attachments/assets/509bce04-ce9e-456a-8533-603da19842fc" />
 
-Example below.
 
-*Ref 1: Network Diagram*
