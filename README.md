@@ -51,6 +51,15 @@ which is directly relevant to SOC L1 Analyst roles.
 - Network analysis tools (such as Wireshark) for capturing and examining network traffic.
 - Telemetry generation tools (log forwarding from Windows 10)to create realistic network traffic and attack scenarios.
 
+
+###Phase 1 — SIEM setup and log ingestion
+[Document existing work]
+- Splunk Enterprise setup
+- Windows Forwarder service
+- Windows Security and Application logs
+- Basic SPL searches
+
+
 ## Steps
 
 *Ref 1: Start Splunk Enterprise
@@ -85,7 +94,27 @@ Review your Application log results and inspect fields such as EventCode, LogNam
 index="windows" sourcetype="WinEventLog:Application"
 <img width="1160" height="856" alt="Screenshot (17)" src="https://github.com/user-attachments/assets/fa404aac-f660-4d97-adb8-dffdec1391cf" />
 
+###Phase 2 — Authentication monitoring and detection
+[Your next milestone]
+- Understand Windows authentication events.
+- Analyze repeated failed logon events in your authorized lab.
+- Build a Splunk search that identifies repeated failures.
+- Create a dashboard and document detection results.
+- Compare failed and successful logons where the available logs support it.
 
+
+## Detection-Rules
+[authentication-monitoring.md]
+- 
+-
+
+## Dashboards
+[authentication-dashboard.md]
+- 
+
+
+## Investigations
+[authentication-event-analysis.md]
 
 
 
