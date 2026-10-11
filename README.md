@@ -95,27 +95,6 @@ Review your Application log results and inspect fields such as EventCode, LogNam
 index="windows" sourcetype="WinEventLog:Application"
 <img width="1160" height="856" alt="Screenshot (17)" src="https://github.com/user-attachments/assets/fa404aac-f660-4d97-adb8-dffdec1391cf" />
 
-###Phase 2 — Authentication monitoring and detection
-[Your next milestone]
-- Understand Windows authentication events.
-- Analyze repeated failed logon events in your authorized lab.
-- Build a Splunk search that identifies repeated failures.
-- Create a dashboard and document detection results.
-- Compare failed and successful logons where the available logs support it.
-
-
-## Detection-Rules
-[authentication-monitoring.md]
-- 
--
-
-## Dashboards
-[authentication-dashboard.md]
-- 
-
-
-## Investigations
-[authentication-event-analysis.md]
 
 
 
