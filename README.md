@@ -96,6 +96,9 @@ index="windows" sourcetype="WinEventLog:Application"
 <img width="1160" height="856" alt="Screenshot (17)" src="https://github.com/user-attachments/assets/fa404aac-f660-4d97-adb8-dffdec1391cf" />
 
 
+## References
+- **Video Guide**: [What is Splunk) | Get Splunk FREE Today! (Defronix Academy)]([http://www.youtube.com/watch?v=MI5DMKuxhH0](https://www.youtube.com/live/Gd5a47UaRY4?si=5Ew3PWTdqP6gdcIz)) 
+- **Portfolio Template**: [MyDFIR Detection-Lab Template](https://github.com/Test-MyDFIR/Detection-Lab/blob/main/README.md)
 
 
 
