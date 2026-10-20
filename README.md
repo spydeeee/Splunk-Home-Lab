@@ -97,7 +97,7 @@ index="windows" sourcetype="WinEventLog:Application"
 
 
 ## References
-- **Video Guide**: [What is Splunk) | Get Splunk FREE Today! (Defronix Academy)]([http://www.youtube.com/watch?v=MI5DMKuxhH0](https://www.youtube.com/live/Gd5a47UaRY4?si=5Ew3PWTdqP6gdcIz)) 
+- **Video Guide**: [What is Splunk) | Get Splunk FREE Today! (Defronix Academy)](https://www.youtube.com/live/Gd5a47UaRY4?si=5Ew3PWTdqP6gdcIz)
 - **Portfolio Template**: [MyDFIR Detection-Lab Template](https://github.com/Test-MyDFIR/Detection-Lab/blob/main/README.md)
 
 
